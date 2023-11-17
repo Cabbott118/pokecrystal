@@ -1192,8 +1192,8 @@ IronTailDescription:
 	next "reduce DEFENSE.@"
 
 MetalClawDescription:
-	db   "An attack that may"
-	next "up user's ATTACK.@"
+	db   "An attack that"
+	next "ups user's ATTACK.@"
 
 VitalThrowDescription:
 	db   "A 2nd-strike move"
@@ -1260,8 +1260,8 @@ FutureSightDescription:
 	next "hits on 3rd turn.@"
 
 RockSmashDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
+	db   "An attack that"
+	next "lowers DEFENSE.@"
 
 WhirlpoolDescription:
 	db   "Traps the foe for"
