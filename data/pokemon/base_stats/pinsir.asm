@@ -4,7 +4,7 @@
 	evs  0,   2,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db BUG, BUG ; type
+	db BUG, GROUND ; type
 	db 45 ; catch rate
 	db 200 ; base exp
 	db NO_ITEM, NO_ITEM ; items

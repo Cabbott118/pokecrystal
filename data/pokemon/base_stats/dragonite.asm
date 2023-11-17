@@ -1,6 +1,6 @@
 	db DRAGONITE ; 149
 
-	db  91, 134,  95,  80, 100, 100
+	db  91, 134,  95,  80, 134, 100
 	evs  0,   3,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 

@@ -1,6 +1,6 @@
 	db AZUMARILL ; 184
 
-	db 100,  50,  80,  50,  50,  80
+	db 100,  50,  80,  50,  80,  80
 	evs  3,   0,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 

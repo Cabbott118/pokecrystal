@@ -1,13 +1,13 @@
 	db DRATINI ; 147
 
-	db  41,  64,  45,  50,  50,  50
+	db  41,  64,  45,  50,  64,  50
 	evs  0,   1,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, DRAGON ; type
 	db 45 ; catch rate
 	db 67 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; items
+	db DRAGON_SCALE, DRAGON_SCALE ; items
 	db GENDER_F50 ; gender ratio
 	db 40 ; step cycles to hatch
 	INCBIN "gfx/pokemon/dratini/front.dimensions"
