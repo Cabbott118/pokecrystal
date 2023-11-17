@@ -10,7 +10,7 @@ TypeNames:
 	dw Rock
 	dw Bird
 	dw Bug
-	dw Ghost
+	dw Dark
 	dw Steel
 	assert_table_length UNUSED_TYPES
 
@@ -27,7 +27,7 @@ endr
 	dw Psychic
 	dw Ice
 	dw Dragon
-	dw Dark
+	dw Ghost
 	dw Fairy
 	assert_table_length TYPES_END
 
@@ -46,8 +46,8 @@ Ground:    db "GROUND@"
 Rock:      db "ROCK@"
 Bird:      db "BIRD@"
 Bug:       db "BUG@"
-Ghost:     db "GHOST@"
+Dark:      db "DARK@"
 Steel:     db "STEEL@"
 Dragon:    db "DRAGON@"
-Dark:      db "DARK@"
+Ghost:     db "GHOST@"
 Fairy:	   db "FAIRY@"

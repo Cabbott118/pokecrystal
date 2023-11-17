@@ -4,7 +4,7 @@
 	evs  0,   2,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, ROCK ; type
+	db ROCK, ROCK ; type
 	db 60 ; catch rate
 	db 204 ; base exp
 	db NO_ITEM, NO_ITEM ; items
