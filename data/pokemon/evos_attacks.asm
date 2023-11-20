@@ -2635,7 +2635,7 @@ SunfloraEvosAttacks:
 
 YanmaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, GUST
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
@@ -3062,7 +3062,7 @@ MantineEvosAttacks:
 SkarmoryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, METAL_CLAW
-	db 1, WING_ATTACK
+	db 1, PECK
 	db 13, SAND_ATTACK
 	db 19, SWIFT
 	db 23, STEEL_WING
