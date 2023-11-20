@@ -67,7 +67,6 @@ MartViolet:
 
 MartAzalea:
 	db 9 ; # items
-	db CHARCOAL
 	db POKE_BALL
 	db POTION
 	db SUPER_POTION
@@ -75,6 +74,7 @@ MartAzalea:
 	db REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
+	db KINGS_ROCK
 	db FLOWER_MAIL
 	db -1 ; end
 
@@ -150,6 +150,7 @@ MartOlivine:
 	db AWAKENING
 	db ICE_HEAL
 	db SUPER_REPEL
+	db METAL_COAT
 	db SURF_MAIL
 	db -1 ; end
 
@@ -199,6 +200,7 @@ MartBlackthorn:
 	db MAX_REPEL
 	db X_DEFEND
 	db X_ATTACK
+	db DRAGON_SCALE
 	db -1 ; end
 
 MartViridian:
