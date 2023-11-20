@@ -119,6 +119,9 @@ MartGoldenrod3F:
 	db DIRE_HIT
 	db GUARD_SPEC
 	db X_ACCURACY
+	db WATER_STONE
+	db THUNDERSTONE
+	db FIRE_STONE
 	db -1 ; end
 
 MartGoldenrod4F:
