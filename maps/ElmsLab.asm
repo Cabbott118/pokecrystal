@@ -1393,7 +1393,7 @@ AideText_GetPocketPCText:
 	text "Oh, I have this"
 	line "for you too."
 
-	para "It's a Pocket PC!"
+	para "It's a POCKET PC!"
 	done
 	
 AideText_PocketPCInfoText:
