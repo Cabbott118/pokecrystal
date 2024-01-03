@@ -38,7 +38,7 @@ Moves:
 	move VINE_WHIP,    EFFECT_NORMAL_HIT,         35, GRASS,        100, 10,   0
 	move STOMP,        EFFECT_STOMP,              65, NORMAL,       100, 20,  30
 	move DOUBLE_KICK,  EFFECT_DOUBLE_HIT,         30, FIGHTING,     100, 30,   0
-	move MEGA_KICK,    EFFECT_NORMAL_HIT,        120, NORMAL,        85,  5,   0
+	move MEGA_KICK,    EFFECT_NORMAL_HIT,        120, FIGHTING,      85,  5,   0
 	move JUMP_KICK,    EFFECT_JUMP_KICK,          70, FIGHTING,      95, 25,   0
 	move ROLLING_KICK, EFFECT_FLINCH_HIT,         60, FIGHTING,      85, 15,  30
 	move SAND_ATTACK,  EFFECT_ACCURACY_DOWN,       0, GROUND,       100, 15,   0
@@ -54,8 +54,8 @@ Moves:
 	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,       100, 15,   0
 	move TAIL_WHIP,    EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move POISON_STING, EFFECT_POISON_HIT,         40, POISON,       100, 35,  30
-	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   35, BUG,          100, 20,  20
-	move PIN_MISSILE,  EFFECT_MULTI_HIT,          14, BUG,          100, 20,   0
+	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   40, BUG,          100, 20,  20
+	move PIN_MISSILE,  EFFECT_MULTI_HIT,          20, BUG,          100, 20,   0
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,         100, 25,  30
 	move GROWL,        EFFECT_ATTACK_DOWN,         0, NORMAL,       100, 40,   0
@@ -138,7 +138,7 @@ Moves:
 	move LICK,         EFFECT_PARALYZE_HIT,       40, GHOST,        100, 30,  30
 	move SMOG,         EFFECT_POISON_HIT,         20, POISON,        70, 20,  40
 	move SLUDGE,       EFFECT_POISON_HIT,         65, POISON,       100, 20,  30
-	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,        85, 20,  10
+	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,       100, 20,  10
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,          85,  5,  10
 	move WATERFALL,    EFFECT_NORMAL_HIT,         80, WATER,        100, 15,   0
 	move CLAMP,        EFFECT_TRAP_TARGET,        35, WATER,         85, 10,   0
@@ -151,15 +151,15 @@ Moves:
 	move SOFTBOILED,   EFFECT_HEAL,                0, NORMAL,       100, 10,   0
 	move HI_JUMP_KICK, EFFECT_JUMP_KICK,          85, FIGHTING,      90, 20,   0
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,        75, 30,   0
-	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, PSYCHIC_TYPE, 100, 15,   0
+	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, GHOST, 		100, 15,   0
 	move POISON_GAS,   EFFECT_POISON,              0, POISON,        55, 40,   0
 	move BARRAGE,      EFFECT_MULTI_HIT,          15, NORMAL,        85, 20,   0
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          60, BUG,          100, 15,   0
 	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,        75, 10,   0
 	move SKY_ATTACK,   EFFECT_SKY_ATTACK,        180, FLYING,        95,  5,   0
 	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL,       100, 10,   0
-	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,        100, 30,  10
-	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,       100, 10,  20
+	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,        100, 30,  30
+	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,       100, 10,  30
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,        100, 15,   0
 	move FLASH,        EFFECT_ACCURACY_DOWN_HIT,  50, ELECTRIC,     100, 20,   0
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE,  80, 15,   0
@@ -215,7 +215,7 @@ Moves:
 	move LOCK_ON,      EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
 	move OUTRAGE,      EFFECT_RAMPAGE,           120, DRAGON,       100, 15,   0
 	move SANDSTORM,    EFFECT_SANDSTORM,           0, ROCK,         100, 10,   0
-	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          90, GRASS,        100,  5,   0
+	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          90, GRASS,        100, 10,   0
 	move ENDURE,       EFFECT_ENDURE,              0, NORMAL,       100, 10,   0
 	move CHARM,        EFFECT_ATTACK_DOWN_2,       0, FAIRY,       	100, 20,   0
 	move ROLLOUT,      EFFECT_ROLLOUT,            30, ROCK,          90, 20,   0

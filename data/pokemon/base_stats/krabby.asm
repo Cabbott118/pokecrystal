@@ -1,6 +1,6 @@
 	db KRABBY ; 098
 
-	db  30, 105,  90,  50,  25,  25
+	db  30, 105,  90,  50,  55,  25
 	evs  0,   1,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 

@@ -111,7 +111,7 @@ MartGoldenrod2F2:
 	db -1 ; end
 
 MartGoldenrod3F:
-	db 7 ; # items
+	db 10 ; # items
 	db X_SPEED
 	db X_SPECIAL
 	db X_DEFEND
@@ -125,12 +125,13 @@ MartGoldenrod3F:
 	db -1 ; end
 
 MartGoldenrod4F:
-	db 5 ; # items
+	db 6 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db HP_UP
+	db RARE_CANDY
 	db -1 ; end
 
 MartGoldenrod5F:

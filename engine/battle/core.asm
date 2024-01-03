@@ -5695,10 +5695,10 @@ MoveInfoBox:
 	cp b
 	jr nz, .not_disabled
 
-	hlcoord 1, 11
+	hlcoord 1, 10
 	ld de, .Disabled1
 	call PlaceString
-	hlcoord 1, 10
+	hlcoord 1, 11
 	ld de, .Disabled2
 	call PlaceString
 	jp .done

@@ -211,9 +211,9 @@ KakunaEvosAttacks:
 BeedrillEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
-	db 10, FURY_ATTACK
+	db 10, TWINEEDLE
 	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
+	db 20, FURY_ATTACK
 	db 25, RAGE
 	db 30, PURSUIT
 	db 35, PIN_MISSILE
@@ -225,7 +225,7 @@ PidgeyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, SAND_ATTACK
-	db 9, GUST
+	db 6, GUST
 	db 15, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 29, WING_ATTACK
@@ -240,7 +240,7 @@ PidgeottoEvosAttacks:
 	db 1, SAND_ATTACK
 	db 1, GUST
 	db 5, SAND_ATTACK
-	db 9, GUST
+	db 6, GUST
 	db 15, QUICK_ATTACK
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
@@ -255,7 +255,7 @@ PidgeotEvosAttacks:
 	db 1, GUST
 	db 1, QUICK_ATTACK
 	db 5, SAND_ATTACK
-	db 9, GUST
+	db 6, GUST
 	db 15, QUICK_ATTACK
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
